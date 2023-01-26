@@ -1,0 +1,35 @@
+
+
+body {
+	background: url('../images/ch2.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+#container{
+	background:url('../images/ch.jpg') ;
+	width: 800px;
+	color: white;
+	
+	padding: 10px;
+}
+h1 {
+	font-size: 80px;
+	font-family: "Rubik Vinyl",serif;
+}
+
+h2 {
+	background: #c99918;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+}
+a {
+	color: #C39BD3;
+	text-decoration: none;
+}
